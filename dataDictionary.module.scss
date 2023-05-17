@@ -1,0 +1,35 @@
+.leftPanel{
+    background-color: #f7f8ff;
+    box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.22);
+    width: 368px;
+    display: inline-block;
+}
+
+.leftPanelActionTypography{
+    font-size:0.688rem;
+    text-transform:uppercase;
+}
+
+.leftPanelIconBox{
+    border:1px solid #474a73;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.center{
+    display:flex;
+    align-items: center;
+}
+
+.textOverflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: noWrap;
+  }
+  @mixin center {
+    display: flex;
+    align-items: center;
+  }
+  .center {
+    @include center;
+  }
